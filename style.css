@@ -11,6 +11,11 @@
     width: 15vw;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
 }
 
 .sidebar nav {
@@ -75,6 +80,7 @@
 
 .buttons {
     margin-top: 34px;
+    font-size: 16px;
 }
 
 .btn {
@@ -193,4 +199,29 @@ p{
 .t50{
     width: 75px;
     background-color: aqua;
+}
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1615px) {
+    * {
+        font-size: 10px;
+    }
+
+    .devPic {
+        display: none;
+    }
+
+    .intro, .blogContainer {
+        margin: 8px;
+    }
 }
