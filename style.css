@@ -11,10 +11,10 @@
     width: 15vw;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
-    transition: transform 0.3s ease-in;
+    min-width: 200px;
 }
 .sidebarGo{
-    transform: translate(-443px, 0px);
+    transform: translate(-0px, 0px);
     position: absolute;
 }
 
@@ -24,8 +24,8 @@
 
 .sidebar nav li {
     list-style: none;
-    font-size: 30px;
-    padding: 33px 0;
+    font-size: 40px;
+    padding: 44px 0;
 }
 
 .sidebar nav li a {
@@ -36,10 +36,12 @@
 .main {
     /* background-color: yellow; */
     width: 90vw;
+
 }
 
 .container {
     display: flex;
+
 }
 
 .infoContainer {
@@ -211,17 +213,16 @@ p{
     margin-left: 185px;
     margin-top: 10px;
 }
-
 @media (max-width: 1615px) {
     * {
-        font-size: 10px;
+        font-size: 16px;
     }
 
-    .devPic {
-        display: none;
+
     }
 
     .intro, .blogContainer {
         margin: 8px;
     }
 }
+
